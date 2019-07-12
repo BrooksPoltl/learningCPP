@@ -1,9 +1,10 @@
 #include <iostream>
 
+extern int x;
+
 int main(){
-    int favorite_number;
-    std::cout <<"Enter your favorite number between 1 and 100: ";
-    std::cin >> favorite_number;
-    std::cout << "Amazing!ts my favorite number too" << std::endl;
+    
+    std::cout << "Hello world" << std::endl;
+    std::cout << x;
     return 0;
 }
