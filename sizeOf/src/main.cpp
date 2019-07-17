@@ -35,6 +35,24 @@ int main(){
     cout << "============================" << endl;
     cout << "float: "<< sizeof(float) << " bytes" << endl;
     cout << "double:  "<< sizeof(double) << " bytes" << endl;
-    cout << "long double: "<< sizeof(long double) << " bytes" << endl;
+    cout << "long double: "<< sizeof(long double) << " bytes" << endl<< endl;
+
+    //climits
+
+    cout << "============================" << endl;
+    cout << "Minimum values:" <<endl;
+    cout << "char: "<< CHAR_MIN << endl;
+    cout << "int:  "<< INT_MIN << endl;
+    cout << "short: "<< SHRT_MIN << endl;
+    cout << "long:  "<< LONG_MIN << endl;
+    cout << "long long:  "<< LLONG_MIN << endl<< endl;
+
+    cout << "============================" << endl;
+    cout << "Maximum values:" <<endl;
+    cout << "char: "<< CHAR_MAX << endl;
+    cout << "int:  "<< INT_MAX << endl;
+    cout << "short: "<< SHRT_MAX << endl;
+    cout << "long:  "<< LONG_MAX << endl;
+    cout << "long long:  "<< LLONG_MAX << endl<< endl;
     return 0;
 }
