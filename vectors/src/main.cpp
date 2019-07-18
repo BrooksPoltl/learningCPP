@@ -13,5 +13,12 @@ int main(){
     cout << "third score at index 2:"<< test_scores.at(2)<<endl;
     cout << "fourth score at index 3:"<< test_scores.at(3)<<endl;
     cout << "fifth score at index 4:"<< test_scores.at(4)<<endl;
+
+    test_scores.push_back(80);
+    test_scores.push_back(90);
+
+    cout << "fourth score at index 5:"<< test_scores.at(5)<<endl;
+    cout << "fifth score at index 6:"<< test_scores.at(6)<<endl;
+
     return 0;
 }
