@@ -19,6 +19,6 @@ int main(){
 
     cout << "fourth score at index 5:"<< test_scores.at(5)<<endl;
     cout << "fifth score at index 6:"<< test_scores.at(6)<<endl;
-
+    cout << "size of test_scores: "<< test_scores.size()<<endl;
     return 0;
 }
