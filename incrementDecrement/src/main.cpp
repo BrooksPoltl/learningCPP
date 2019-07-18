@@ -19,9 +19,14 @@ int main(){
 
     cout << "Counter: "<< counter <<endl;
 
-    result = ++counter;
+    // result = ++counter;
+    // cout << "Counter: "<< counter <<endl;
+    // cout << "Result: "<< result << endl;
+
+    result = counter++;
     cout << "Counter: "<< counter <<endl;
     cout << "Result: "<< result << endl;
+
 
     return 0;
 }
